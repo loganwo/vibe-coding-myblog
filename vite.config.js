@@ -5,6 +5,6 @@ import react from '@vitejs/plugin-react'
 // 如果 repo 是 "myblog"，这里要写 "/myblog/"
 export default defineConfig({
   plugins: [react()],
-  base: '/myblog/'
+  base: '/vibe-coding-myblog/'
 })
 
