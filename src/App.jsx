@@ -27,9 +27,30 @@ export default function App() {
 
       <main className="w-full max-w-3xl">
         {page === "home" && (
-          <section className="bg-white rounded-2xl p-6 shadow">
+          <section className="bg-white rounded-2xl p-6 shadow mb-6">
             <h2 className="text-2xl font-semibold mb-4">欢迎</h2>
             <p>欢迎来到我的个人网站，这里记录了我的点滴和思考。</p>
+          </section>
+        )}
+
+        {page === "about" && (
+          <section className="bg-white rounded-2xl p-6 shadow mb-6">
+            <h2 className="text-2xl font-semibold mb-4">关于我</h2>
+            <p>我是一名热爱生活的人，喜欢旅行、美食和运动。</p>
+          </section>
+        )}
+
+        {page === "articles" && (
+          <section className="bg-white rounded-2xl p-6 shadow mb-6">
+            <h2 className="text-2xl font-semibold mb-4">文章列表</h2>
+            <article className="bg-gray-50 rounded-xl p-4 shadow mb-4">
+              <h3 className="font-bold">第一篇文章</h3>
+              <p>这是我的第一篇文章示例。</p>
+            </article>
+            <article className="bg-gray-50 rounded-xl p-4 shadow">
+              <h3 className="font-bold">第二篇文章</h3>
+              <p>这是另一篇文章示例。</p>
+            </article>
           </section>
         )}
       </main>
